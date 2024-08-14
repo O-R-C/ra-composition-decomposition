@@ -5,6 +5,13 @@ import Aside from '../Aside/Aside'
 
 import styles from './WidgetTop.module.css'
 
+/**
+ * A React functional component that renders the top widget.
+ *
+ * @param {Object} news - The news data to be rendered.
+ * @param {Object} exchangeRates - The exchange rates data to be rendered.
+ * @return {JSX.Element} The rendered top widget element.
+ */
 const WidgetTop = ({ news, exchangeRates }) => {
   return (
     <div className={styles.widgetTop}>
