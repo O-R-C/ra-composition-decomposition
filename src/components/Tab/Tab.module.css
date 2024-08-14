@@ -1,0 +1,16 @@
+.tab {
+  & .button {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgba(0, 0, 255, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  & .selected {
+    color: rgba(0, 0, 255, 1);
+  }
+}

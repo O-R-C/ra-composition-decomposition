@@ -1,0 +1,9 @@
+.current-date {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.6);
+}
