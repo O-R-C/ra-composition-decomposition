@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from 'uuid'
+import getID from './getID'
 
 class NewsItem {
   /**
@@ -13,8 +13,8 @@ class NewsItem {
    */
   constructor({ title, content }) {
     this.title = title
-    this.content = content.map(({ icon, text }) => ({ icon: icon || '📰', text, id: uuidv4() }))
-    this.id = uuidv4()
+    this.content = content.map(({ icon, text }) => ({ icon: icon || '📰', text, id: getID() }))
+    this.id = getID()
   }
 }
 

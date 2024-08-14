@@ -4,6 +4,8 @@
   gap: 10px;
   font-size: 1rem;
 
+  margin-left: -30px;
+
   & h3 {
     align-self: end;
     font-size: inherit;

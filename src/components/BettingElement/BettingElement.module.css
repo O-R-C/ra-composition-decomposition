@@ -1,0 +1,24 @@
+.betting-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 1rem;
+}
+
+.currency {
+  font-weight: bold;
+}
+
+.moex {
+  font-weight: bold;
+}
+
+.amount {
+  font-weight: bold;
+}
+
+.percentage {
+  color: rgba(0, 0, 0, 0.6);
+}

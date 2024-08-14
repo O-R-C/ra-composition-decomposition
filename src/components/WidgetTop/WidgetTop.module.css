@@ -3,3 +3,9 @@
   justify-content: space-between;
   align-items: end;
 }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
