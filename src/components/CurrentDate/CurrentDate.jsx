@@ -1,5 +1,5 @@
-import styles from './CurrentDate.module.css'
 import moment from 'moment/min/moment-with-locales'
+import styles from './CurrentDate.module.css'
 
 moment.locale('ru')
 
