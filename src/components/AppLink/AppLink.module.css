@@ -1,0 +1,11 @@
+@value values: '../../css/variables.module.css';
+@value colorMain from values;
+
+.app-link {
+  text-decoration: none;
+  color: colorMain;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
