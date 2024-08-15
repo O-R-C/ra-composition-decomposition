@@ -27,7 +27,7 @@ ExchangeRates.propTypes = {
   rates: PropTypes.arrayOf(
     PropTypes.shape({
       currency: PropTypes.string.isRequired,
-      moex: PropTypes.string.isRequired,
+      moex: PropTypes.bool.isRequired,
       amount: PropTypes.string.isRequired,
       percentage: PropTypes.string.isRequired,
     })

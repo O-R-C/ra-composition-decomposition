@@ -3,6 +3,7 @@ import WidgetMiddle from './components/WidgetMiddle/WidgetMiddle'
 import newsData from './js/newsData'
 import exchangeRates from './js/exchangeRates'
 import dataAppLinks from './js/dataAppLinks'
+import bannerData from './js/bannerData'
 
 function App() {
   return (
@@ -11,7 +12,10 @@ function App() {
         news={newsData}
         exchangeRates={exchangeRates}
       />
-      <WidgetMiddle appLinks={dataAppLinks} />
+      <WidgetMiddle
+        appLinks={dataAppLinks}
+        bannerData={bannerData}
+      />
     </div>
   )
 }

@@ -25,7 +25,7 @@ const BettingElement = ({ currency, moex, amount, percentage }) => {
 
 BettingElement.propTypes = {
   currency: PropTypes.string.isRequired,
-  moex: PropTypes.string,
+  moex: PropTypes.bool,
   amount: PropTypes.string.isRequired,
   percentage: PropTypes.string.isRequired,
 }

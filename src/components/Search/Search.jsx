@@ -14,6 +14,7 @@ const Search = () => {
           className={styles.input}
           type='text'
           placeholder='Search...'
+          name='search'
         />
         <button className={styles.button}>Найти</button>
       </div>
