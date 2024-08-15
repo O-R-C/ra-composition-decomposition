@@ -1,0 +1,31 @@
+.search {
+  display: flex;
+  align-items: center;
+
+  margin-left: -30px;
+}
+
+.input {
+  margin-left: 10px;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ffd85d;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button {
+  border: none;
+  background-color: #ffd85d;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+
+  align-self: normal;
+  padding: 0 10px;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
