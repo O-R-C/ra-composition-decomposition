@@ -1,0 +1,23 @@
+.str {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  font-size: 0.8rem;
+  margin-left: -20px;
+}
+
+.iconPlay {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.broadcast {
+  font-weight: 500;
+}
+
+.channel {
+  color: rgba(0, 0, 0, 0.6);
+}

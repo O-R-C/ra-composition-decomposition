@@ -7,12 +7,18 @@ import styles from './Card.module.css'
  * @param {Object} children - The content to be rendered inside the card.
  * @return {JSX.Element} The rendered card element.
  */
-const Card = ({ children }) => {
-  return <div className={styles.card}>{children}</div>
+const Card = ({ name, children }) => {
+  return (
+    <div className={styles.card}>
+      <h5 className={styles.title}>{name}</h5>
+      {children}
+    </div>
+  )
 }
 
 Card.propTypes = {
   children: PropTypes.node.isRequired,
+  name: PropTypes.string.isRequired,
 }
 
 export default Card

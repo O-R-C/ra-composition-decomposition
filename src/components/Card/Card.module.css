@@ -1,0 +1,16 @@
+@value values: '../../css/variables.module.css';
+@value colorMain from values;
+
+.card {
+  break-inside: avoid-column;
+
+  & .title {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: colorMain;
+  }
+}
+
+.card + .card {
+  margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+.str {
+  display: flex;
+  gap: 5px;
+
+  font-size: 0.8rem;
+}
+
+.time {
+  font-weight: 500;
+}
+
+.broadcast {
+  font-weight: 500;
+}
+
+.channel {
+  color: rgba(0, 0, 0, 0.6);
+}

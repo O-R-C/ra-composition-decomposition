@@ -1,5 +1,6 @@
 import WidgetTop from './components/WidgetTop/WidgetTop'
 import WidgetMiddle from './components/WidgetMiddle/WidgetMiddle'
+import WidgetBottom from './components/WidgetBottom/WidgetBottom'
 import newsData from './js/newsData'
 import exchangeRates from './js/exchangeRates'
 import dataAppLinks from './js/dataAppLinks'
@@ -16,6 +17,7 @@ function App() {
         appLinks={dataAppLinks}
         bannerData={bannerData}
       />
+      <WidgetBottom />
     </div>
   )
 }
