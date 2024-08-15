@@ -1,10 +1,11 @@
 import styles from './Grammar.module.css'
+import pngGreen from '../../assets/green.png'
 
 const Grammar = () => {
   return (
     <div className={styles.grammar}>
       <img
-        src='src\assets\green.png'
+        src={pngGreen}
         alt='grammar'
       />
       <h5>
